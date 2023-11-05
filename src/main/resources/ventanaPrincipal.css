@@ -1,0 +1,22 @@
+.ventanaPrincipal {
+    -fx-background-color: #FFFF99;
+}
+
+
+Button {
+    -fx-font-weight: bold;
+    -fx-pref-width: 110;
+    -fx-pref-height: 6;
+    -fx-font-size: 12;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0, 0, 0);
+}
+
+#buttonSalir {
+    -fx-background-color: #D74C3C;
+    -fx-text-fill: black;
+}
+
+#buttonSalir:hover {
+    -fx-background-color: white;
+}
+

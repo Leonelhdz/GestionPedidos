@@ -1,0 +1,30 @@
+.ventanadetalles {
+    -fx-background-color: #FFFF99;
+}
+
+Button {
+    -fx-font-weight: bold;
+    -fx-pref-width: 110;
+    -fx-pref-height: 6;
+    -fx-font-size: 12;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0, 0, 0);
+}
+
+#buttonSalir1 {
+    -fx-background-color: #D74C3C;
+    -fx-text-fill: black;
+}
+
+#buttonAnterior {
+    -fx-background-color: #00A65E;
+    -fx-text-fill: black;
+}
+
+#buttonAnterior:hover {
+    -fx-background-color:white;
+}
+
+
+#buttonSalir1:hover {
+    -fx-background-color: white;
+}
